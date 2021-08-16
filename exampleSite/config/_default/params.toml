@@ -1,0 +1,61 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon.png"
+# logo
+logo = "images/logo-1.png"
+# use `x` with logo_width, example: "100x"
+logo_width = "150x"
+# logo text will only show when logo is missing.
+logo_text = "Cloud Code Site"
+# OpenGraph / Twitter Card metadata
+description = "This is meta description"
+author = "Gethugothemes"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+# main sections
+mainSections = ["blog"]
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# copyright text
+copyright = "Designed & Developed by [GetHugoThemes](https://gethugothemes.com)"
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+custom_script= "" 
+
+# banner
+[banner]
+content = "Learn cloud computing, while building full-stack linux based apps."
+bg_image= "images/banner.png"
+
+# author
+[author_block]
+title= "WELCOME TO CLOUD CODE BLOG"
+image= "images/author-100.jpg"
+content= "digital cloud platforms, linux, cisco, python, api, raspberry pi #Bitcoin, website marketing software, 90's hip hop head"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+icon = "fab fa-facebook-f"
+link = "#"
+
+[[social]]
+icon = "fab fa-twitter"
+link = "https://twitter.com/magnetmill"
+
+[[social]]
+icon = "fab fa-instagram"
+link = "#"
+
+#[[social]]
+#icon = "fab fa-dribbble"
+#link = "#"
